@@ -123,7 +123,7 @@ toml==0.10.2 \
     --hash=sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b \
     --hash=sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f
 # lxml is required by pyquery
-lxml==4.7.1 \
+lxml==4.9.1 \
     --hash=sha256:d546431636edb1d6a608b348dd58cc9841b81f4116745857b6cb9f8dadb2725f \
     --hash=sha256:6308062534323f0d3edb4e702a0e26a76ca9e0e23ff99be5d82750772df32a9e \
     --hash=sha256:f76dbe44e31abf516114f6347a46fa4e7c2e8bceaa4b6f7ee3a0a03c8eba3c17 \
