@@ -1,4 +1,4 @@
-Django==3.2.11 \
+Django==3.2.16 \
     --hash=sha256:0a0a37f0b93aef30c4bf3a839c187e1175bcdeb7e177341da0cb7b8194416891 \
     --hash=sha256:69c94abe5d6b1b088bf475e09b7b74403f943e34da107e798465d2045da27e75
 
@@ -54,7 +54,7 @@ mysqlclient==2.1.0 \
     --hash=sha256:2c8410f54492a3d2488a6a53e2d85b7e016751a1e7d116e7aea9c763f59f5e8c \
     --hash=sha256:e6279263d5a9feca3e0edbc2b2a52c057375bf301d47da2089c075ff76331d14 \
     --hash=sha256:973235686f1b720536d417bf0a0d39b4ab3d5086b2b6ad5e6752393428c02b12
-Pillow==8.4.0 \
+Pillow==9.2.0 \
     --hash=sha256:81f8d5c81e483a9442d72d182e1fb6dcb9723f289a57e8030811bac9ea3fef8d \
     --hash=sha256:3f97cfb1e5a392d75dd8b9fd274d205404729923840ca94ca45a0af57e13dbe6 \
     --hash=sha256:eb9fc393f3c61f9054e1ed26e6fe912c7321af2f41ff49d3f83d05bacf22cc78 \
@@ -419,7 +419,7 @@ google-resumable-media==2.1.0 \
 proto-plus==1.19.8 \
     --hash=sha256:3434eadaed845a337d6c488d2b7d055d733aaa231c0c0d4c778ec720bb91cf87 \
     --hash=sha256:bdf45f0e0be71510eb2ec9db4da78afde7b5fb8b0a507a36340a9b6ce8e48e58
-protobuf==3.19.3 \
+protobuf==3.19.5 \
     --hash=sha256:1cb2ed66aac593adbf6dca4f07cd7ee7e2958b17bbc85b2cc8bc564ebeb258ec \
     --hash=sha256:898bda9cd37ec0c781b598891e86435de80c3bfa53eb483a9dac5a11ec93e942 \
     --hash=sha256:8ad761ef3be34c8bdc7285bec4b40372a8dad9e70cfbdc1793cd3cf4c1a4ce74 \
@@ -510,3 +510,4 @@ wcwidth==0.2.5 \
 publicsuffix2==2.20191221 \
     --hash=sha256:00f8cc31aa8d0d5592a5ced19cccba7de428ebca985db26ac852d920ddd6fe7b \
     --hash=sha256:786b5e36205b88758bd3518725ec8cfe7a8173f5269354641f581c6b80a99893
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
