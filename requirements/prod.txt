@@ -398,7 +398,7 @@ yara-python==4.1.3 \
     --hash=sha256:4159c2ffe6855b8e608e1b6728a80088e2edef31f23d7c8204ce43948ba2ea9b \
     --hash=sha256:348d80039c3b499ad8ec9ce02ceaef0c1d5b7282b84e3b6fe6adb6a158c8e0cf
 # zipp is required by importlib-metadata
-zipp==3.7.0 \
+zipp==3.19.1 \
     --hash=sha256:b47250dd24f92b7dd6a0a8fc5244da14608f3ca90a5efcd37a3b1642fac9a375 \
     --hash=sha256:9f50f446828eb9d45b267433fd3e9da8d801f614129124863f9c51ebceafb87d
 google-cloud-bigquery==2.32.0 \
