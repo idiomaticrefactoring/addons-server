@@ -3,7 +3,7 @@ pyinotify==0.9.6 \
 # ipython / ipdb for easier debugging, supervisor to run services
 ipdb==0.13.9 \
     --hash=sha256:951bd9a64731c444fd907a5ce268543020086a697f6be08f7cc2c9a752a278c5
-ipython==7.31.0 \
+ipython==8.10.0 \
     --hash=sha256:4c4234cdcc6b8f87c5b5c7af9899aa696ac5cfcf0e9f6d0688018bbee5c73bce \
     --hash=sha256:346c74db7312c41fa566d3be45d2e759a528dcc2994fe48aac1a03a70cd668a3
 watchdog[watchmedo]==2.1.6 \
@@ -61,3 +61,6 @@ pickleshare==0.7.5 \
 supervisor==4.2.4 \
     --hash=sha256:bbae57abf74e078fe0ecc9f30068b6da41b840546e233ef1e659a12e4c875af6 \
     --hash=sha256:40dc582ce1eec631c3df79420b187a6da276bbd68a4ec0a8f1f123ea616b97a2
+django>=4.2.15 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
