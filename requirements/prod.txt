@@ -510,3 +510,4 @@ wcwidth==0.2.5 \
 publicsuffix2==2.20191221 \
     --hash=sha256:00f8cc31aa8d0d5592a5ced19cccba7de428ebca985db26ac852d920ddd6fe7b \
     --hash=sha256:786b5e36205b88758bd3518725ec8cfe7a8173f5269354641f581c6b80a99893
+aiohttp>=3.10.11 # not directly required, pinned by Snyk to avoid a vulnerability
